@@ -4,7 +4,8 @@ body {
 
 h1 {
     text-align: center;
-    color: blue;
+    color: rgb(227, 252, 7);
+    background-color: blue;
 }
 
 .container {
@@ -22,4 +23,14 @@ h1 {
     /* Centers contents horizontally */
     align-items: center;
     /* Centers contents vertically */
+}
+
+button {
+    /* margin-top: 20px; */
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
