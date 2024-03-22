@@ -29,7 +29,12 @@ h1 h2 {
 #writing_container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* This will center the text horizontally */
 }
+
 
 button {
     /* margin-top: 20px; */
