@@ -12,7 +12,7 @@ $('button').on('click', function () {
         $('.container').css('background', "url('./clown-cute.gif') no-repeat");
         $('.container').append(`<div id="writing_container"><h1 style="text-align: center;
         color: rgb(227, 252, 7);
-        background-color: blue;">חג פורים שמח גרוסמנים יקרים!</h1>
+        background-color: blue; margin-top: 50px;">חג פורים שמח גרוסמנים יקרים!</h1>
         <h2 style="text-align: center;
         color: rgb(227, 252, 7);
         background-color: blue;>אוהבים מאד, האלפרים :)</h2></div>`);
