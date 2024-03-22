@@ -2,9 +2,10 @@ $('button').on('click', function () {
     $('.container').addClass('animate__flipOutY');
     setTimeout(function () {
         $('.container').removeClass('animate__flipOutY');
-        $('.container').css('background-color', "blue");
-        $('.container').css('background', "url('./clown-cute.gif') no-repeat center").addClass('animate__animated animate__bounceInRight');
+        $('.container').css('background', 'none'); // Set background to none to hide it
+        $('.container').addClass('animate__animated animate__bounceInRight');
         $('h1').css('visibility', 'visible');
+        $('h1').append('<h2>אוהבים מאד, משפחת אלפר!</h2>');
     }, 1000); // Adjust the delay time (in milliseconds) as needed
 
     setTimeout(function () {
