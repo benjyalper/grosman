@@ -19,6 +19,7 @@ h1 h2 {
     background-repeat: no-repeat;
     display: flex;
     /* Enables flexbox layout */
+    flex-direction: column;
     justify-content: center;
     /* Centers contents horizontally */
     align-items: center;
