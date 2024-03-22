@@ -10,6 +10,8 @@ $('button').on('click', function () {
 
         // Set the background to the clown image and add animation classes for clown entry
         $('.container').css('background', "url('./clown-cute.gif') no-repeat");
+        $('.container').append(`<div id="writing_container">"<h1>חג פורים שמח גרוסמנים יקרים!</h1>
+        <h2>אוהבים מאד, האלפרים :)</h2></div>`);
         $('.container').addClass('animate__animated animate__bounceInRight');
 
         // Make the h1 and h2 elements visible
